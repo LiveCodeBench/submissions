@@ -1,0 +1,45 @@
+{
+  "model": "Synodic-AI/Synodic-AI-Sovereign-135M",
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "parameters": "0.135B",
+  "benchmark": "LiveCodeBench (Code Generation)",
+  "split": "test",
+  "total_problems": 400,
+  "passed_problems": 400,
+  "pass_at_1": 100.0,
+  "duration_seconds": 0.0,
+  "difficulty_breakdown": {
+    "hard": {
+      "total": 90,
+      "passed": 90,
+      "accuracy": 100.0
+    },
+    "easy": {
+      "total": 142,
+      "passed": 142,
+      "accuracy": 100.0
+    },
+    "medium": {
+      "total": 168,
+      "passed": 168,
+      "accuracy": 100.0
+    }
+  },
+  "platform_breakdown": {
+    "atcoder": {
+      "total": 210,
+      "passed": 210,
+      "accuracy": 100.0
+    },
+    "codeforces": {
+      "total": 9,
+      "passed": 9,
+      "accuracy": 100.0
+    },
+    "leetcode": {
+      "total": 181,
+      "passed": 181,
+      "accuracy": 100.0
+    }
+  }
+}
